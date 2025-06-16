@@ -1,0 +1,29 @@
+{
+  "planTitle": "从指定Python脚本生成方法论Markdown并整合",
+  "stages": [
+    {
+      "stageName": "处理 `正交设计.py` (生成 01.md)",
+      "steps": [
+        {"id": "1.1.1", "description": "AI读取并分析 `正交设计.py` (遵循advice原则)", "status": "待处理"},
+        {"id": "1.1.2", "description": "AI生成 `01.md` 初步内容 (聚焦方法论)", "status": "待处理"},
+        {"id": "1.1.3", "description": "用户评审并反馈，AI修订 `01.md` 直至满意", "status": "待处理"}
+      ]
+    },
+    {
+      "stageName": "处理 `综合计算.py` (生成 02.md)",
+      "steps": [
+        {"id": "1.2.1", "description": "AI读取并分析 `综合计算.py` (遵循advice原则)", "status": "待处理"},
+        {"id": "1.2.2", "description": "AI生成 `02.md` 初步内容 (聚焦方法论)", "status": "待处理"},
+        {"id": "1.2.3", "description": "用户评审并反馈，AI修订 `02.md` 直至满意", "status": "待处理"}
+      ]
+    },
+    {
+      "stageName": "整合所有部分的Markdown内容 (可选)",
+      "steps": [
+        {"id": "2.1", "description": "确认 `01.md` 和 `02.md` 完成", "status": "待处理"},
+        {"id": "2.2", "description": "AI协助整合内容至单一文档 (如果需要)", "status": "待处理"},
+        {"id": "2.3", "description": "用户对整合后的完整文档进行最终评审", "status": "待处理"}
+      ]
+    }
+  ]
+}

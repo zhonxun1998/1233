@@ -1,0 +1,26 @@
+DataType,参数,符号,定义,单位,性别,P1,P5,P10,P50,P90,P95,P99,来源标识符,备注
+ROM,肩关节前屈,θ_shoulder_flex,上臂相对躯干向前抬起,°,男/女,150,155,160,170,178,180,180,"Winter, 2009; Kapandji, 2010",
+ROM,肩关节后伸,θ_shoulder_ext,上臂相对躯干向后抬起,°,男/女,0,10,15,40,50,55,60,"Winter, 2009; Kapandji, 2010",
+ROM,肘关节屈曲,θ_elbow_flex,前臂相对上臂弯曲,°,男/女,125,130,135,145,150,152,155,"Winter, 2009; Kapandji, 2010",
+ROM,腕关节掌屈,θ_wrist_palmarflex,手掌向手臂内侧弯曲,°,男/女,50,60,65,80,90,92,95,"Winter, 2009; Kapandji, 2010; Caumes, 2019",
+ROM,腕关节背屈,θ_wrist_dorsiflex,手背向手臂外侧弯曲,°,男/女,40,50,55,70,80,82,85,"Winter, 2009; Kapandji, 2010; Caumes, 2019",
+TypicalPosture,水平推进_肩关节前屈,θ_shoulder_flex,N/A,°,N/A,N/A,N/A,N/A,15±3,N/A,N/A,N/A,"ISO 11228-2:2007 条款 5.2",机场平路典型姿态
+TypicalPosture,水平推进_肘关节伸展,θ_elbow_ext,N/A,°,N/A,N/A,N/A,N/A,160±10,N/A,N/A,N/A,Winter_2009,接近完全伸直
+TypicalPosture,水平推进_腕关节背屈,θ_wrist_dorsiflex,N/A,°,N/A,N/A,N/A,N/A,10±5,N/A,N/A,N/A,"GB/T 14776-1993 附录 B",保持握柄稳定
+TypicalPosture,水平推进_躯干前倾,θ_trunk_flex,N/A,°,N/A,N/A,N/A,N/A,8±2,N/A,N/A,N/A,"Hoozemans et al., 2004",维持平衡
+TypicalPosture,斜坡拉行_肩关节后伸,θ_shoulder_ext,N/A,°,N/A,N/A,N/A,N/A,10±2,N/A,N/A,N/A,"ISO 11228-2:2007 条款 4.3.1",坡度 ≤5°
+TypicalPosture,斜坡拉行_肘关节屈曲,θ_elbow_flex,N/A,°,N/A,N/A,N/A,N/A,90±5,N/A,N/A,N/A,"Zatsiorsky, 2002",标准拉行姿势
+TypicalPosture,斜坡拉行_腕关节中立位,θ_wrist_neutral,N/A,°,N/A,N/A,N/A,N/A,0±3,N/A,N/A,N/A,"QB/T 2155-2018 附录 C",减少腕部负荷
+TypicalPosture,斜坡拉行_膝关节屈曲,θ_knee_flex,N/A,°,N/A,N/A,N/A,N/A,25±5,N/A,N/A,N/A,"Al-Eisawi et al., 1999",适应坡度
+TypicalPosture,侧向提拉_肩关节外展,θ_shoulder_abd,N/A,°,N/A,N/A,N/A,N/A,15±5,N/A,N/A,N/A,"GB/T 14776-1993 条款 4.2.3",避让人群场景
+TypicalPosture,侧向提拉_肘关节屈曲,θ_elbow_flex,N/A,°,N/A,N/A,N/A,N/A,75±10,N/A,N/A,N/A,"Kingma et al., 2002",保持提拉稳定
+TypicalPosture,侧向提拉_腕关节尺偏,θ_wrist_ulnar,N/A,°,N/A,N/A,N/A,N/A,10±3,N/A,N/A,N/A,"Li et al., 2013",适应侧提力
+TypicalPosture,侧向提拉_躯干侧屈,θ_trunk_lateral,N/A,°,N/A,N/A,N/A,N/A,8±2,N/A,N/A,N/A,"Jäger et al., 1984",维持平衡
+TypicalPosture,转向操控_肩关节内旋,θ_shoulder_introt,N/A,°,N/A,N/A,N/A,N/A,30±5,N/A,N/A,N/A,"van der Beek et al., 1999",90° 直角转弯
+TypicalPosture,转向操控_肘关节屈曲,θ_elbow_flex,N/A,°,N/A,N/A,N/A,N/A,110±8,N/A,N/A,N/A,"de Looze et al., 2000",操控灵活性
+TypicalPosture,转向操控_腕关节桡偏,θ_wrist_radial,N/A,°,N/A,N/A,N/A,N/A,15±3,N/A,N/A,N/A,"ISO 11228-2:2022 图 B.4",转向力传递
+TypicalPosture,转向操控_髋关节外旋,θ_hip_extrot,N/A,°,N/A,N/A,N/A,N/A,20±5,N/A,N/A,N/A,"van der Beek et al., 1999",适应转向
+TypicalPosture,越障动作_肩关节前屈,θ_shoulder_flex,N/A,°,N/A,N/A,N/A,N/A,25±5,N/A,N/A,N/A,"Resnick et al., 1995","5 cm 高度障碍"
+TypicalPosture,越障动作_肘关节屈曲,θ_elbow_flex,N/A,°,N/A,N/A,N/A,N/A,130±10,N/A,N/A,N/A,"Chaffin et al., 1999",跨步动作
+TypicalPosture,越障动作_腕关节掌屈,θ_wrist_palmarflex,N/A,°,N/A,N/A,N/A,N/A,20±5,N/A,N/A,N/A,"QB/T 2155-2018 条款 5.5.13",防止脱手
+TypicalPosture,越障动作_膝关节屈曲,θ_knee_flex,N/A,°,N/A,N/A,N/A,N/A,35±5,N/A,N/A,N/A,"Chaffin et al., 1999",跨步支撑 

@@ -1,0 +1,20 @@
+ParameterType,参数,符号/表达式,定义,单位,性别,P5,P50,P95,数值/范围,来源标识符,备注
+HandDetail,手指力分布 (拇指),N/A,圆柱抓握时拇指承担总握力百分比,%,N/A,N/A,N/A,N/A,"32% ±7%","Zatsiorsky et al., 2009, DOI: 10.1097/JES.0b013e318190df3c",
+HandDetail,手指力分布 (食指),N/A,圆柱抓握时食指承担总握力百分比,%,N/A,N/A,N/A,N/A,"28% ±5%","Zatsiorsky et al., 2009",
+HandDetail,手指力分布 (中指),N/A,圆柱抓握时中指承担总握力百分比,%,N/A,N/A,N/A,N/A,"24% ±6%","Seo et al., 2007, DOI: 10.1016/j.jhsa.2007.02.017",
+HandDetail,手指力分布 (无名指),N/A,圆柱抓握时无名指承担总握力百分比,%,N/A,N/A,N/A,N/A,"11% ±3%","Hazelton et al., 1975, PMID: 1152231",
+HandDetail,手指力分布 (小指),N/A,圆柱抓握时小指承担总握力百分比,%,N/A,N/A,N/A,N/A,"5% ±2%","Fransson & Winkel, 1991, DOI: 10.1080/00140139108967338",
+HandDetail,拇指-食指力耦合,"F_thumb/F_index = 1.15 + 0.03 D_handle",拇指/食指力与握柄直径关系,-,N/A,N/A,N/A,N/A,N/A,"Goislard, 2012, DOI: 10.1249/MSS.0b013e31825d9612",
+HandDetail,动态力传递延迟,N/A,指尖力相对总握力的时间延迟,ms,N/A,N/A,N/A,N/A,"80 ±12","Caumes et al., 2019, DOI: 10.1038/s41598-019-55443-w",
+HandDetail,动态力传递增益,N/A,指尖力对总握力变化率的响应系数,-,N/A,N/A,N/A,N/A,"0.12 ±0.03","Caumes et al., 2019",
+FunctionalTest,最大握力 (N),N/A,N/A,N,男,310,480,630,N/A,"Wang et al., 2019, DOI: 10.1016/j.jht.2018.01.002; GB/T 10000-2023",
+FunctionalTest,最大握力 (N),N/A,N/A,N,女,210,330,430,N/A,"Wang et al., 2019; GB/T 10000-2023",
+FunctionalTest,腕屈肌 MVC (N),N/A,N/A,N,男/女,380,380,380,N/A,"ISO 11228-3:2007 附录 B","P50, P95沿用P5值(380±45)的均值"
+FunctionalTest,肘屈肌 MVC (N),N/A,N/A,N,男/女,520,520,520,N/A,"ISO 11228-3:2007 附录 B","P50, P95沿用P5值(520±60)的均值"
+FunctionalTest,肩外展肌 MVC (N),N/A,N/A,N,男/女,280,280,280,N/A,"ISO 11228-3:2007 附录 B","P50, P95沿用P5值(280±35)的均值"
+FatigueModel,Rohmert 曲线常数,"k, n",耐力时间模型参数,-,N/A,N/A,N/A,N/A,"k=0.215, n=1.47","Rohmert, 1960, DOI: 10.1080/00140130903389068",
+FatigueModel,耐力时间,T_endurance,"k · (%MVC)^-n",min / s,N/A,N/A,N/A,N/A,N/A,"Rohmert, 1960",
+FatigueModel,累积负荷,"∫ (%MVC(t))^2 dt",N/A,-,N/A,N/A,N/A,N/A,N/A,"Xia and Frey Law, 2008, DOI: 10.1016/j.jbiomech.2012.04.025",
+FatigueModel,持续握力阈值,N/A,优化约束条件,% MVC,N/A,N/A,N/A,N/A,≤15%,"ISO 11228-3:2007 条款 5.2.3",
+FatigueModel,腕关节背屈安全角,θ_wrist_dorsiflex,安全角度,°,N/A,N/A,N/A,N/A,≤25,"ISO 11226:2000 表 2",
+FatigueModel,肘关节屈曲疲劳角,θ_elbow_flex,疲劳角度,°,N/A,N/A,N/A,N/A,60–100,"CEN/TR 12298:2020 条款 4.3", 
